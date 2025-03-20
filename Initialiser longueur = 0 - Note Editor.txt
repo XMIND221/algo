@@ -1,0 +1,22 @@
+Initialiser longueur = 0
+Initialiser compte_mots = 1  // Commencer par 1 car le premier mot n'a pas d'espace avant
+Initialiser compte_voyelles = 0
+
+Lire la phrase caractère par caractère
+Répéter jusqu'à ce que le dernier caractère soit un point :
+    Lire caractère
+    Incrémenter longueur de 1
+    Si le caractère est un espace :
+        Incrémenter compte_mots de 1
+    Si le caractère est une voyelle (a, e, i, o, u, A, E, I, O, U) :
+        Incrémenter compte_voyelles de 1
+Afficher longueur
+Afficher compte_mots
+Afficher compte_voyelles
+
+
+
+
+Longueur : 19
+Mots : 3
+Voyelles : 7
